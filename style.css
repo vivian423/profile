@@ -1,0 +1,108 @@
+/*
+font-family: 'Calistoga', cursive;
+font-family: 'Gajraj One', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Ubuntu Mono', monospace; */
+
+.align_center {
+  text-align: center;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #1b263b;
+  font-size: 12px;
+  font-weight: light bold;
+  width: 100%
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  color: black;
+}
+
+#profile_pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#position_title {
+  color: #003459;
+  font-size: 16px;
+}
+.card {
+  background-color: #cad2c5;
+  padding: 20px;
+  width: 60%;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 3px solid #EAEAEA
+}
+
+#le_wagon_button {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: #6f1d1b;
+  padding: 6px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+font-size: 40px;
+}
+
+ul {
+  padding: 0px;
+}
+
+.icons_inline {
+  display: inline-block;
+  font-size:20px
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 750px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
